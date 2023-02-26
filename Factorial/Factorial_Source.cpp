@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <conio.h>
 using namespace std;
 
@@ -16,16 +16,16 @@ int main() {
 	// FACTORIAL
 
 #if defined TASK_1_FACTORIAL
-	int number, i = 1, b; // b будет факториалом
+	int number, i = 1, b; // b Р±СѓРґРµС‚ С„Р°РєС‚РѕСЂРёР°Р»РѕРј
 	b = i;
-	cout << "Введите число для расчета его факториала: "; cin >> number;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґР»СЏ СЂР°СЃС‡РµС‚Р° РµРіРѕ С„Р°РєС‚РѕСЂРёР°Р»Р°: "; cin >> number;
 	cout << endl;
 	for (; i < number; )
 	{
 		i++;
 		b = i * b;
 	}
-	cout << "Факториал числа " << number << " равен " << b << endl;
+	cout << "Р¤Р°РєС‚РѕСЂРёР°Р» С‡РёСЃР»Р° " << number << " СЂР°РІРµРЅ " << b << endl;
 
 #endif
 
@@ -35,14 +35,14 @@ int main() {
 
 	double num, result_power;
 	int power;
-	cout << "Введите число, которое будет возведено в степень "; cin >> num; cout << endl;
-	cout << "Введите целочисленный показатель степени для введеного вами числа " << "\"" << num << "\"" << " "; cin >> power; cout << endl;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ, РєРѕС‚РѕСЂРѕРµ Р±СѓРґРµС‚ РІРѕР·РІРµРґРµРЅРѕ РІ СЃС‚РµРїРµРЅСЊ "; cin >> num; cout << endl;
+	cout << "Р’РІРµРґРёС‚Рµ С†РµР»РѕС‡РёСЃР»РµРЅРЅС‹Р№ РїРѕРєР°Р·Р°С‚РµР»СЊ СЃС‚РµРїРµРЅРё РґР»СЏ РІРІРµРґРµРЅРѕРіРѕ РІР°РјРё С‡РёСЃР»Р° " << "\"" << num << "\"" << " "; cin >> power; cout << endl;
 	if (num > 0) {
 		for (int a = 0; a != power; a++)
 		{
 			result_power = num * num;
 		}
-		cout << num << " в степени " << power << " = " << result_power << endl;
+		cout << num << " РІ СЃС‚РµРїРµРЅРё " << power << " = " << result_power << endl;
 	}
 	else if (num < 0)
 	{
@@ -50,7 +50,7 @@ int main() {
 		{
 			result_power = -1 * num * num;
 		}
-		cout << num << " в степени " << power << " = " << result_power << endl;
+		cout << num << " РІ СЃС‚РµРїРµРЅРё " << power << " = " << result_power << endl;
 	}
 
 #endif
